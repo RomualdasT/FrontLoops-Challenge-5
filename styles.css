@@ -7,9 +7,10 @@ body {
 p {
     margin: 0;
 }
-
+@media screen and (min-width: 1200px) {
 .margin-t-70 {
     margin-top: 70px;
+}
 }
 .container {
     background-color: #fff;
@@ -27,6 +28,7 @@ p {
         "pass-class bar bar"
         "pass-dep bar bar";
 }
+
 .city-1 {
     grid-area: city-1;
 }
@@ -96,4 +98,25 @@ p {
 
 .pass-bottom {
    font-weight: 500;
+}
+
+@media screen and (min-width: 321px) and (max-width: 766px) {
+  body {
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+  .container {
+      margin-top: 40%;
+      display: grid;
+      max-width: 80%;
+      padding: 30px 20px;
+  }
+  .mini {
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .line {
+    font-size: 40px;
+  }
 }

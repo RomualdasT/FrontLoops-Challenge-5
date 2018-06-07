@@ -1,0 +1,99 @@
+body {
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+}
+p {
+    margin: 0;
+}
+
+.margin-t-70 {
+    margin-top: 70px;
+}
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 60px 40px 40px 40px;
+    margin: 0 auto;
+    margin-top: 250px;
+    max-width: 20vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas:
+        "city-1 line city-2"
+        "info-1 info-2 info-3"
+        "pass-name bar bar"
+        "pass-class bar bar"
+        "pass-dep bar bar";
+}
+.city-1 {
+    grid-area: city-1;
+}
+.city-2 {
+    grid-area: city-2;
+    text-align: right;
+}
+.city {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0,0,0, 0.4);
+    font-weight: 700;
+}
+.line {
+    grid-area: line;
+    font-family: Prompt, sans-serif;
+    font-size: 50px;
+    color: #d3e6f4;
+    justify-self: center;
+}
+.line p {
+    margin: 0;
+}
+.info-1 {
+    grid-area: info-1;
+}
+.info-2 {
+    grid-area: info-2;
+}
+.info-3 {
+    grid-area: info-3;
+}
+.pass-name {
+    grid-area: pass-name;
+}
+.pass-class{
+    grid-area: pass-class;
+}
+.pass-dep {
+    grid-area: pass-dep;
+}
+
+.bar {
+    grid-area: bar;
+    justify-self: end;
+}
+.mini {
+    font-family: Prompt, sans-serif;
+    color: #3b8acf;
+    font-size: 60px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.info-line, .pass-top {
+    text-transform: uppercase;
+    color: rgba(0,0,0, 0.4);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.info-number {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.pass-bottom {
+   font-weight: 500;
+}

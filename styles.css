@@ -120,3 +120,24 @@ p {
     font-size: 40px;
   }
 }
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  body {
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+  .container {
+      margin-top: 40%;
+      display: grid;
+      max-width: 60%;
+}
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+  body {
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+  .container {
+      margin-top: 40%;
+      max-width: 60%;
+}
+}

@@ -7,11 +7,7 @@ body {
 p {
     margin: 0;
 }
-@media screen and (min-width: 1200px) {
-.margin-t-70 {
-    margin-top: 70px;
-}
-}
+
 .container {
     background-color: #fff;
     border-radius: 5px;
@@ -138,6 +134,10 @@ p {
   }
   .container {
       margin-top: 40%;
-      max-width: 60%;
+      max-width: 80%;
+}
+
+.margin-t-70 {
+    margin-top: 70px;
 }
 }
